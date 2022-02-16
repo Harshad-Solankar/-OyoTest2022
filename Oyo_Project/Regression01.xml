@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+		<listener class-name="extentReport.ExtentTestNGIReporterListener" />
+</listeners>
+
+
+    <test thread-count="5" name="OyoTestOnChrome">
+  <parameter name = "browser" value= "chrome" />
+    <classes>
+      <class name="Test01"/>
+      <class name= "Test02"/>
+    </classes>
+   </test> 
+ 
+  <test thread-count="5" name="OyoTestOnFireFox">
+  <parameter name = "browser" value= "firefox" />
+    <classes>
+    
+      <class name="Test01"/>
+      <class name= "Test02"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ <test thread-count="5" name="OyoTestOnOpera"> 
+  <parameter name = "browser" value= "opera" />
+    <classes>
+      <class name="Test01"/>
+      <class name= "Test02"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="OyoTestOnedge">
+  <parameter name = "browser" value= "MicrosoftEdge" />
+    <classes>
+      <class name="Test01"/>
+      <class name= "Test02"/>
+      
+    </classes>
+  </test> <!-- Test -->  
+  
+
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="3" failed="1" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-16T16:27:31 IST" name="Suite" finished-at="2022-02-16T16:28:57 IST" duration-ms="85939">
+    <groups>
+    </groups>
+    <test started-at="2022-02-16T16:27:31 IST" name="OyoTestOnChrome" finished-at="2022-02-16T16:27:47 IST" duration-ms="15903">
+      <class name="Test02">
+        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:Test02@2145b572]" started-at="2022-02-16T16:27:32 IST" name="browserOpen" finished-at="2022-02-16T16:27:33 IST" duration-ms="855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpen -->
+        <test-method is-config="true" signature="objectsOfPOMMethods()[pri:0, instance:Test02@2145b572]" started-at="2022-02-16T16:27:45 IST" name="objectsOfPOMMethods" finished-at="2022-02-16T16:27:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectsOfPOMMethods -->
+        <test-method is-config="true" signature="UrlAnd_Login()[pri:0, instance:Test02@2145b572]" started-at="2022-02-16T16:27:45 IST" name="UrlAnd_Login" finished-at="2022-02-16T16:27:46 IST" duration-ms="1427" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "roomBooking_POM_Class.Header.clickLogin_Signup()" because "this.header" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "roomBooking_POM_Class.Header.clickLogin_Signup()" because "this.header" is null
+at Test02.UrlAnd_Login(Test02.java:109)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UrlAnd_Login -->
+        <test-method signature="testOfficialOYOBlog()[pri:0, instance:Test02@2145b572]" started-at="2022-02-16T16:27:46 IST" name="testOfficialOYOBlog" finished-at="2022-02-16T16:27:46 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "roomBooking_POM_Class.Header.clickLogin_Signup()" because "this.header" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "roomBooking_POM_Class.Header.clickLogin_Signup()" because "this.header" is null
+at Test02.UrlAnd_Login(Test02.java:109)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOfficialOYOBlog -->
+        <test-method is-config="true" signature="captureScreenShot(org.testng.ITestResult)[pri:0, instance:Test02@2145b572]" started-at="2022-02-16T16:27:46 IST" name="captureScreenShot" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1645009066932" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShot -->
+        <test-method is-config="true" signature="clearObjectsOfPOMMethods()[pri:0, instance:Test02@2145b572]" started-at="2022-02-16T16:27:46 IST" name="clearObjectsOfPOMMethods" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1645009066933" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjectsOfPOMMethods -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:Test02@2145b572]" started-at="2022-02-16T16:27:47 IST" name="browserclose" finished-at="2022-02-16T16:27:47 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- Test02 -->
+      <class name="Test01">
+        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:Test01@3911c2a7]" started-at="2022-02-16T16:27:31 IST" name="browserOpen" finished-at="2022-02-16T16:27:32 IST" duration-ms="1442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpen -->
+        <test-method is-config="true" signature="objectsOfPOMMethods()[pri:0, instance:Test01@3911c2a7]" started-at="2022-02-16T16:27:33 IST" name="objectsOfPOMMethods" finished-at="2022-02-16T16:27:33 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectsOfPOMMethods -->
+        <test-method is-config="true" signature="UrlAnd_Login()[pri:0, instance:Test01@3911c2a7]" started-at="2022-02-16T16:27:33 IST" name="UrlAnd_Login" finished-at="2022-02-16T16:27:35 IST" duration-ms="1280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UrlAnd_Login -->
+        <test-method signature="test01()[pri:0, instance:Test01@3911c2a7]" started-at="2022-02-16T16:27:35 IST" name="test01" finished-at="2022-02-16T16:27:45 IST" duration-ms="10310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:Test01@3911c2a7]" started-at="2022-02-16T16:27:45 IST" name="captureScreenshot" finished-at="2022-02-16T16:27:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test01 status=SUCCESS method=Test01.test01()[pri:0, instance:Test01@3911c2a7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method is-config="true" signature="clearObjectsOfPOMMethods()[pri:0, instance:Test01@3911c2a7]" started-at="2022-02-16T16:27:45 IST" name="clearObjectsOfPOMMethods" finished-at="2022-02-16T16:27:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjectsOfPOMMethods -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:Test01@3911c2a7]" started-at="2022-02-16T16:27:46 IST" name="browserClose" finished-at="2022-02-16T16:27:47 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- Test01 -->
+    </test> <!-- OyoTestOnChrome -->
+    <test started-at="2022-02-16T16:27:47 IST" name="OyoTestOnFireFox" finished-at="2022-02-16T16:28:14 IST" duration-ms="27248">
+      <class name="Test02">
+        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:Test02@32eff876]" started-at="2022-02-16T16:27:51 IST" name="browserOpen" finished-at="2022-02-16T16:27:53 IST" duration-ms="2417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpen -->
+        <test-method is-config="true" signature="UrlAnd_Login()[pri:0, instance:Test02@32eff876]" started-at="2022-02-16T16:28:09 IST" name="UrlAnd_Login" finished-at="2022-02-16T16:28:12 IST" duration-ms="2897" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "roomBooking_POM_Class.Header.clickLogin_Signup()" because "this.header" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "roomBooking_POM_Class.Header.clickLogin_Signup()" because "this.header" is null
+at Test02.UrlAnd_Login(Test02.java:109)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UrlAnd_Login -->
+        <test-method is-config="true" signature="objectsOfPOMMethods()[pri:0, instance:Test02@32eff876]" started-at="2022-02-16T16:28:09 IST" name="objectsOfPOMMethods" finished-at="2022-02-16T16:28:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectsOfPOMMethods -->
+        <test-method signature="testOfficialOYOBlog()[pri:0, instance:Test02@32eff876]" started-at="2022-02-16T16:28:12 IST" name="testOfficialOYOBlog" finished-at="2022-02-16T16:28:12 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "roomBooking_POM_Class.Header.clickLogin_Signup()" because "this.header" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "roomBooking_POM_Class.Header.clickLogin_Signup()" because "this.header" is null
+at Test02.UrlAnd_Login(Test02.java:109)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOfficialOYOBlog -->
+        <test-method is-config="true" signature="captureScreenShot(org.testng.ITestResult)[pri:0, instance:Test02@32eff876]" started-at="2022-02-16T16:28:12 IST" name="captureScreenShot" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1645009092486" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShot -->
+        <test-method is-config="true" signature="clearObjectsOfPOMMethods()[pri:0, instance:Test02@32eff876]" started-at="2022-02-16T16:28:12 IST" name="clearObjectsOfPOMMethods" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1645009092487" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjectsOfPOMMethods -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:Test02@32eff876]" started-at="2022-02-16T16:28:13 IST" name="browserclose" finished-at="2022-02-16T16:28:14 IST" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- Test02 -->
+      <class name="Test01">
+        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:Test01@5e0826e7]" started-at="2022-02-16T16:27:47 IST" name="browserOpen" finished-at="2022-02-16T16:27:51 IST" duration-ms="4134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpen -->
+        <test-method is-config="true" signature="objectsOfPOMMethods()[pri:0, instance:Test01@5e0826e7]" started-at="2022-02-16T16:27:53 IST" name="objectsOfPOMMethods" finished-at="2022-02-16T16:27:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectsOfPOMMethods -->
+        <test-method is-config="true" signature="UrlAnd_Login()[pri:0, instance:Test01@5e0826e7]" started-at="2022-02-16T16:27:53 IST" name="UrlAnd_Login" finished-at="2022-02-16T16:27:57 IST" duration-ms="3778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UrlAnd_Login -->
+        <test-method signature="test01()[pri:0, instance:Test01@5e0826e7]" started-at="2022-02-16T16:27:57 IST" name="test01" finished-at="2022-02-16T16:28:09 IST" duration-ms="11469" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+FAIL// Title is not Matched expected [https://www.oyorooms.com/112501/?checkin=20%2F02%2F2022&checkout=21%2F02%2F2022&guests=3&modal=bookingSummary&rooms=2&rooms_config=2-1_0-2_0&selected_rcid=272950] but found [https://www.oyorooms.com/112501/?checkin=20%2F02%2F2022&checkout=21%2F02%2F2022&rooms=2&guests=3&rooms_config=2-1_0-2_0&selected_rcid=272950]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+FAIL// Title is not Matched expected [https://www.oyorooms.com/112501/?checkin=20%2F02%2F2022&checkout=21%2F02%2F2022&guests=3&modal=bookingSummary&rooms=2&rooms_config=2-1_0-2_0&selected_rcid=272950] but found [https://www.oyorooms.com/112501/?checkin=20%2F02%2F2022&checkout=21%2F02%2F2022&rooms=2&guests=3&rooms_config=2-1_0-2_0&selected_rcid=272950]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at Test01.test01(Test01.java:189)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:Test01@5e0826e7]" started-at="2022-02-16T16:28:09 IST" name="captureScreenshot" finished-at="2022-02-16T16:28:09 IST" duration-ms="352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test01 status=FAILURE method=Test01.test01()[pri:0, instance:Test01@5e0826e7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method is-config="true" signature="clearObjectsOfPOMMethods()[pri:0, instance:Test01@5e0826e7]" started-at="2022-02-16T16:28:09 IST" name="clearObjectsOfPOMMethods" finished-at="2022-02-16T16:28:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjectsOfPOMMethods -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:Test01@5e0826e7]" started-at="2022-02-16T16:28:12 IST" name="browserClose" finished-at="2022-02-16T16:28:13 IST" duration-ms="1463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- Test01 -->
+    </test> <!-- OyoTestOnFireFox -->
+    <test started-at="2022-02-16T16:28:14 IST" name="OyoTestOnOpera" finished-at="2022-02-16T16:28:36 IST" duration-ms="21575">
+      <class name="Test02">
+        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:Test02@158da8e]" started-at="2022-02-16T16:28:17 IST" name="browserOpen" finished-at="2022-02-16T16:28:18 IST" duration-ms="1192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpen -->
+        <test-method is-config="true" signature="objectsOfPOMMethods()[pri:0, instance:Test02@158da8e]" started-at="2022-02-16T16:28:33 IST" name="objectsOfPOMMethods" finished-at="2022-02-16T16:28:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectsOfPOMMethods -->
+        <test-method is-config="true" signature="UrlAnd_Login()[pri:0, instance:Test02@158da8e]" started-at="2022-02-16T16:28:33 IST" name="UrlAnd_Login" finished-at="2022-02-16T16:28:34 IST" duration-ms="1531" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "roomBooking_POM_Class.Header.clickLogin_Signup()" because "this.header" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "roomBooking_POM_Class.Header.clickLogin_Signup()" because "this.header" is null
+at Test02.UrlAnd_Login(Test02.java:109)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UrlAnd_Login -->
+        <test-method signature="testOfficialOYOBlog()[pri:0, instance:Test02@158da8e]" started-at="2022-02-16T16:28:34 IST" name="testOfficialOYOBlog" finished-at="2022-02-16T16:28:34 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "roomBooking_POM_Class.Header.clickLogin_Signup()" because "this.header" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "roomBooking_POM_Class.Header.clickLogin_Signup()" because "this.header" is null
+at Test02.UrlAnd_Login(Test02.java:109)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOfficialOYOBlog -->
+        <test-method is-config="true" signature="captureScreenShot(org.testng.ITestResult)[pri:0, instance:Test02@158da8e]" started-at="2022-02-16T16:28:34 IST" name="captureScreenShot" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1645009114791" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShot -->
+        <test-method is-config="true" signature="clearObjectsOfPOMMethods()[pri:0, instance:Test02@158da8e]" started-at="2022-02-16T16:28:34 IST" name="clearObjectsOfPOMMethods" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1645009114793" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjectsOfPOMMethods -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:Test02@158da8e]" started-at="2022-02-16T16:28:35 IST" name="browserclose" finished-at="2022-02-16T16:28:36 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- Test02 -->
+      <class name="Test01">
+        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:Test01@6aba2b86]" started-at="2022-02-16T16:28:14 IST" name="browserOpen" finished-at="2022-02-16T16:28:17 IST" duration-ms="2879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpen -->
+        <test-method is-config="true" signature="objectsOfPOMMethods()[pri:0, instance:Test01@6aba2b86]" started-at="2022-02-16T16:28:18 IST" name="objectsOfPOMMethods" finished-at="2022-02-16T16:28:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectsOfPOMMethods -->
+        <test-method is-config="true" signature="UrlAnd_Login()[pri:0, instance:Test01@6aba2b86]" started-at="2022-02-16T16:28:18 IST" name="UrlAnd_Login" finished-at="2022-02-16T16:28:21 IST" duration-ms="3027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UrlAnd_Login -->
+        <test-method signature="test01()[pri:0, instance:Test01@6aba2b86]" started-at="2022-02-16T16:28:21 IST" name="test01" finished-at="2022-02-16T16:28:33 IST" duration-ms="11467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:Test01@6aba2b86]" started-at="2022-02-16T16:28:33 IST" name="captureScreenshot" finished-at="2022-02-16T16:28:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test01 status=SUCCESS method=Test01.test01()[pri:0, instance:Test01@6aba2b86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method is-config="true" signature="clearObjectsOfPOMMethods()[pri:0, instance:Test01@6aba2b86]" started-at="2022-02-16T16:28:33 IST" name="clearObjectsOfPOMMethods" finished-at="2022-02-16T16:28:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjectsOfPOMMethods -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:Test01@6aba2b86]" started-at="2022-02-16T16:28:34 IST" name="browserClose" finished-at="2022-02-16T16:28:35 IST" duration-ms="1165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- Test01 -->
+    </test> <!-- OyoTestOnOpera -->
+    <test started-at="2022-02-16T16:28:36 IST" name="OyoTestOnedge" finished-at="2022-02-16T16:28:57 IST" duration-ms="21166">
+      <class name="Test02">
+        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:Test02@44ebcd03]" started-at="2022-02-16T16:28:38 IST" name="browserOpen" finished-at="2022-02-16T16:28:41 IST" duration-ms="2517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MicrosoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpen -->
+        <test-method is-config="true" signature="objectsOfPOMMethods()[pri:0, instance:Test02@44ebcd03]" started-at="2022-02-16T16:28:54 IST" name="objectsOfPOMMethods" finished-at="2022-02-16T16:28:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectsOfPOMMethods -->
+        <test-method is-config="true" signature="UrlAnd_Login()[pri:0, instance:Test02@44ebcd03]" started-at="2022-02-16T16:28:54 IST" name="UrlAnd_Login" finished-at="2022-02-16T16:28:56 IST" duration-ms="2089" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "roomBooking_POM_Class.Header.clickLogin_Signup()" because "this.header" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "roomBooking_POM_Class.Header.clickLogin_Signup()" because "this.header" is null
+at Test02.UrlAnd_Login(Test02.java:109)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UrlAnd_Login -->
+        <test-method signature="testOfficialOYOBlog()[pri:0, instance:Test02@44ebcd03]" started-at="2022-02-16T16:28:56 IST" name="testOfficialOYOBlog" finished-at="2022-02-16T16:28:56 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "roomBooking_POM_Class.Header.clickLogin_Signup()" because "this.header" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "roomBooking_POM_Class.Header.clickLogin_Signup()" because "this.header" is null
+at Test02.UrlAnd_Login(Test02.java:109)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOfficialOYOBlog -->
+        <test-method is-config="true" signature="captureScreenShot(org.testng.ITestResult)[pri:0, instance:Test02@44ebcd03]" started-at="2022-02-16T16:28:56 IST" name="captureScreenShot" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1645009136718" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShot -->
+        <test-method is-config="true" signature="clearObjectsOfPOMMethods()[pri:0, instance:Test02@44ebcd03]" started-at="2022-02-16T16:28:56 IST" name="clearObjectsOfPOMMethods" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1645009136719" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjectsOfPOMMethods -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:Test02@44ebcd03]" started-at="2022-02-16T16:28:57 IST" name="browserclose" finished-at="2022-02-16T16:28:57 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- Test02 -->
+      <class name="Test01">
+        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:Test01@661972b0]" started-at="2022-02-16T16:28:36 IST" name="browserOpen" finished-at="2022-02-16T16:28:38 IST" duration-ms="2370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MicrosoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpen -->
+        <test-method is-config="true" signature="objectsOfPOMMethods()[pri:0, instance:Test01@661972b0]" started-at="2022-02-16T16:28:41 IST" name="objectsOfPOMMethods" finished-at="2022-02-16T16:28:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectsOfPOMMethods -->
+        <test-method is-config="true" signature="UrlAnd_Login()[pri:0, instance:Test01@661972b0]" started-at="2022-02-16T16:28:41 IST" name="UrlAnd_Login" finished-at="2022-02-16T16:28:42 IST" duration-ms="1711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UrlAnd_Login -->
+        <test-method signature="test01()[pri:0, instance:Test01@661972b0]" started-at="2022-02-16T16:28:42 IST" name="test01" finished-at="2022-02-16T16:28:54 IST" duration-ms="11755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:Test01@661972b0]" started-at="2022-02-16T16:28:54 IST" name="captureScreenshot" finished-at="2022-02-16T16:28:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test01 status=SUCCESS method=Test01.test01()[pri:0, instance:Test01@661972b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method is-config="true" signature="clearObjectsOfPOMMethods()[pri:0, instance:Test01@661972b0]" started-at="2022-02-16T16:28:54 IST" name="clearObjectsOfPOMMethods" finished-at="2022-02-16T16:28:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjectsOfPOMMethods -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:Test01@661972b0]" started-at="2022-02-16T16:28:56 IST" name="browserClose" finished-at="2022-02-16T16:28:57 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- Test01 -->
+    </test> <!-- OyoTestOnedge -->
+  </suite> <!-- Suite -->
+</testng-results>
