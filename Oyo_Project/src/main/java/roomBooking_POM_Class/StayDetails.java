@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class StayDetails 
+public class StayDetails  
 {
 	// after defined Global Vairables ///////////////////////////////////////////
 	private WebDriver driver;
