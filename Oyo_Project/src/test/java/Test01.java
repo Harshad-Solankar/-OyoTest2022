@@ -112,13 +112,13 @@ public class Test01 extends Browser
 		{
 			driver.get("https://www.oyorooms.com");
 			
-//					header.clickLogin_Signup();
-//					logIn.clickForLogInByPassword();
-//					String mobileNO = Utility.getDataFromExcel("O_Details",3,0);
-//					logIn.sendKeyEnterMobileNo_Field(mobileNO);
-//					String password = Utility.getDataFromExcel("O_Details",3,1);
-//					logIn.enterPassword_Field(password);
-//					logIn.clickVerfifyNumberButton();
+					header.clickLogin_Signup();
+					logIn.clickForLogInByPassword();
+					String mobileNO = Utility.getDataFromExcel("Sheet1",2,0);
+					logIn.sendKeyEnterMobileNo_Field(mobileNO);
+					String password = Utility.getDataFromExcel("Sheet1",2,1);
+					logIn.enterPassword_Field(password);
+					logIn.clickVerfifyNumberButton();
 		}
 	
 	
@@ -141,7 +141,7 @@ public class Test01 extends Browser
 	//				  	{
 	//				  	    System.out.println("FAIL// Location Attribute Values Are Not Matched");
 	//			  	    }
-				String location = Utility.getDataFromExcel("O_Details",7,0);
+				String location = Utility.getDataFromExcel("Sheet1",5,0);
 						staydetails.locationsend(location);
 						staydetails.sublocationsClick();
 						staydetails.dateClick();

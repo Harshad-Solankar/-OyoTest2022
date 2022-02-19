@@ -18,11 +18,6 @@
           <include name="objectsOfPOMMethods"/>
         </methods>
       </class> <!-- Test02 -->
-    </classes>
-  </test> <!-- OyoTestOnChrome(failed) -->
-  <test thread-count="5" name="OyoTestOnFireFox(failed)">
-    <parameter name="browser" value="firefox"/>
-    <classes>
       <class name="Test01">
         <methods>
           <include name="clearObjectsOfPOMMethods"/>
@@ -34,6 +29,11 @@
           <include name="objectsOfPOMMethods"/>
         </methods>
       </class> <!-- Test01 -->
+    </classes>
+  </test> <!-- OyoTestOnChrome(failed) -->
+  <test thread-count="5" name="OyoTestOnFireFox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
       <class name="Test02">
         <methods>
           <include name="testOfficialOYOBlog"/>
@@ -45,6 +45,17 @@
           <include name="objectsOfPOMMethods"/>
         </methods>
       </class> <!-- Test02 -->
+      <class name="Test01">
+        <methods>
+          <include name="clearObjectsOfPOMMethods"/>
+          <include name="UrlAnd_Login"/>
+          <include name="test01"/>
+          <include name="browserOpen"/>
+          <include name="browserClose"/>
+          <include name="captureScreenshot"/>
+          <include name="objectsOfPOMMethods"/>
+        </methods>
+      </class> <!-- Test01 -->
     </classes>
   </test> <!-- OyoTestOnFireFox(failed) -->
   <test thread-count="5" name="OyoTestOnOpera(failed)">
@@ -61,6 +72,17 @@
           <include name="objectsOfPOMMethods"/>
         </methods>
       </class> <!-- Test02 -->
+      <class name="Test01">
+        <methods>
+          <include name="clearObjectsOfPOMMethods"/>
+          <include name="UrlAnd_Login"/>
+          <include name="test01"/>
+          <include name="browserOpen"/>
+          <include name="browserClose"/>
+          <include name="captureScreenshot"/>
+          <include name="objectsOfPOMMethods"/>
+        </methods>
+      </class> <!-- Test01 -->
     </classes>
   </test> <!-- OyoTestOnOpera(failed) -->
   <test thread-count="5" name="OyoTestOnedge(failed)">
@@ -77,6 +99,17 @@
           <include name="objectsOfPOMMethods"/>
         </methods>
       </class> <!-- Test02 -->
+      <class name="Test01">
+        <methods>
+          <include name="clearObjectsOfPOMMethods"/>
+          <include name="UrlAnd_Login"/>
+          <include name="test01"/>
+          <include name="browserOpen"/>
+          <include name="browserClose"/>
+          <include name="captureScreenshot"/>
+          <include name="objectsOfPOMMethods"/>
+        </methods>
+      </class> <!-- Test01 -->
     </classes>
   </test> <!-- OyoTestOnedge(failed) -->
 </suite> <!-- Failed suite [Suite] -->

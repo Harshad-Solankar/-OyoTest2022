@@ -23,10 +23,11 @@ public class OyoRoomDetails
 	 }
 	 
 	 
-	 public void bookingClick()
+	 public void bookingClick() throws InterruptedException
 	 {
 		 JavascriptExecutor js = (JavascriptExecutor)driver; 
- 	   	 js.executeScript("arguments[0].scrollIntoView(true);", booking);	
+ 	   	 js.executeScript("arguments[0].scrollIntoView(true);", booking);
+ 	   	 Thread.sleep(3000);
 		 booking.click();
 	 }
 }

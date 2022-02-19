@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>D:\Velocty Automation Class\Java Project\Selenium_Automation\5 pojects selenium\Oyo_Project\Regression01.xml</span>
+                    <span>C:\Users\ADMIN\git\-OyoTest2022\Oyo_Project\Regression01.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 1 failed,  4 skipped,  3 passed</span>
+                    <span class="method-stats">8 methods, 4 failed,  4 skipped,  </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -107,6 +107,21 @@
                         <a href="#" panel-name="suite-Suite" title="Test01" class="method navigator-link" hash-for-method="test01">test01</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test01" class="method navigator-link" hash-for-method="test01">test01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test01" class="method navigator-link" hash-for-method="test01">test01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test02" class="method navigator-link" hash-for-method="testOfficialOYOBlog">testOfficialOYOBlog</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
@@ -118,7 +133,7 @@
                     <div class="method-list-content skipped suite-Suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Test02" class="method navigator-link" hash-for-method="testOfficialOYOBlog">testOfficialOYOBlog</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Test01" class="method navigator-link" hash-for-method="test01">test01</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -138,30 +153,6 @@
                       <br/>
                     </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Test01" class="method navigator-link" hash-for-method="test01">test01</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Test01" class="method navigator-link" hash-for-method="test01">test01</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Test01" class="method navigator-link" hash-for-method="test01">test01</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
-                  </li>
                 </ul>
               </div> <!-- suite-section-content -->
             </div> <!-- result-section -->
@@ -175,6 +166,47 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">Test02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOfficialOYOBlog">
+                  </a> <!-- testOfficialOYOBlog -->
+                  <span class="method-name">testOfficialOYOBlog</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//a[text()=&apos;Official OYO Blog&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CQUQF6I&apos;, ip: &apos;192.168.29.236&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+	at roomBooking_POM_Class.LowerHeader.clickOfficialOYOBlog(LowerHeader.java:49)
+	at Test02.testOfficialOYOBlog(Test02.java:127)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">Test01</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -183,11 +215,122 @@
                   <a name="test01">
                   </a> <!-- test01 -->
                   <span class="method-name">test01</span>
-                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	FAIL// Title is not Matched expected [https://www.oyorooms.com/112501/?checkin=20%2F02%2F2022&amp;checkout=21%2F02%2F2022&amp;guests=3&amp;modal=bookingSummary&amp;rooms=2&amp;rooms_config=2-1_0-2_0&amp;selected_rcid=272950] but found [https://www.oyorooms.com/112501/?checkin=20%2F02%2F2022&amp;checkout=21%2F02%2F2022&amp;rooms=2&amp;guests=3&amp;rooms_config=2-1_0-2_0&amp;selected_rcid=272950]
-	at Test01.test01(Test01.java:189)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: (//div[contains(@class,&apos;-phone geoSuggestionsList__&apos;)])[1]&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at roomBooking_POM_Class.StayDetails.sublocationsClick(StayDetails.java:88)
+	at Test01.test01(Test01.java:146)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 29 stack frames
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[contains(@class,&apos;-phone geoSuggestionsList__&apos;)])[1]&quot;}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CQUQF6I&apos;, ip: &apos;192.168.29.236&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63595}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 38f0a7b72e36d1df680795632ae43381
+*** Element info: {Using=xpath, value=(//div[contains(@class,&apos;-phone geoSuggestionsList__&apos;)])[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 30 more
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test01">
+                  </a> <!-- test01 -->
+                  <span class="method-name">test01</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CQUQF6I&apos;, ip: &apos;192.168.29.236&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3008, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e5a3ae14-3864-4c70-8c10-7cc8f87020e5
+*** Element info: {Using=xpath, value=(//div[contains(@class,&apos;-phone geoSuggestionsList__&apos;)])[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at roomBooking_POM_Class.StayDetails.sublocationsClick(StayDetails.java:88)
+	at Test01.test01(Test01.java:146)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test01">
+                  </a> <!-- test01 -->
+                  <span class="method-name">test01</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=98.0.1108.55)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CQUQF6I&apos;, ip: &apos;192.168.29.236&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.55, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58441}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 744e23cce3cfa62147e9adf28eaa2630
+*** Element info: {Using=xpath, value=(//div[contains(@class,&apos;-phone geoSuggestionsList__&apos;)])[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.toString(Unknown Source)
+	at java.base/java.lang.String.valueOf(String.java:3365)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:169)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:683)
+	at java.base/java.lang.String.valueOf(String.java:3365)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:169)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:268)
+	at roomBooking_POM_Class.StayDetails.sublocationsClick(StayDetails.java:88)
+	at Test01.test01(Test01.java:146)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -204,10 +347,22 @@
                   <a name="testOfficialOYOBlog">
                   </a> <!-- testOfficialOYOBlog -->
                   <span class="method-name">testOfficialOYOBlog</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;roomBooking_POM_Class.Header.clickLogin_Signup()&quot; because &quot;this.header&quot; is null
-	at Test02.UrlAnd_Login(Test02.java:109)
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CQUQF6I&apos;, ip: &apos;192.168.29.236&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 10440, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2adf6c6c-d066-401a-b79b-68f015c61377
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at Test02.UrlAnd_Login(Test02.java:108)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
+... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -216,10 +371,27 @@
                   <a name="testOfficialOYOBlog">
                   </a> <!-- testOfficialOYOBlog -->
                   <span class="method-name">testOfficialOYOBlog</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;roomBooking_POM_Class.Header.clickLogin_Signup()&quot; because &quot;this.header&quot; is null
-	at Test02.UrlAnd_Login(Test02.java:109)
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=97.0.4692.99)
+  (Driver info: operadriver=97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}),platform=Windows NT 10.0.19043 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CQUQF6I&apos;, ip: &apos;192.168.29.236&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16&apos;
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58050}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 97.0.4692.99, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 91f75b9bebb8e89f05863bd2b6c83261
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at Test02.UrlAnd_Login(Test02.java:108)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
+... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -228,30 +400,31 @@
                   <a name="testOfficialOYOBlog">
                   </a> <!-- testOfficialOYOBlog -->
                   <span class="method-name">testOfficialOYOBlog</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;roomBooking_POM_Class.Header.clickLogin_Signup()&quot; because &quot;this.header&quot; is null
-	at Test02.UrlAnd_Login(Test02.java:109)
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: MicrosoftEdge=98.0.1108.55)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CQUQF6I&apos;, ip: &apos;192.168.29.236&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.55, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58490}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be1e15f878885fdfe790b30598902a36
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at Test02.UrlAnd_Login(Test02.java:108)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testOfficialOYOBlog">
-                  </a> <!-- testOfficialOYOBlog -->
-                  <span class="method-name">testOfficialOYOBlog</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;roomBooking_POM_Class.Header.clickLogin_Signup()&quot; because &quot;this.header&quot; is null
-	at Test02.UrlAnd_Login(Test02.java:109)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
+... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">Test01</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -260,28 +433,36 @@
                   <a name="test01">
                   </a> <!-- test01 -->
                   <span class="method-name">test01</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test01">
-                  </a> <!-- test01 -->
-                  <span class="method-name">test01</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test01">
-                  </a> <!-- test01 -->
-                  <span class="method-name">test01</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=97.0.4692.99)
+  (Driver info: operadriver=97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}),platform=Windows NT 10.0.19043 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CQUQF6I&apos;, ip: &apos;192.168.29.236&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16&apos;
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58010}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 97.0.4692.99, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 03307b9e645a88fd4e50acfea5b60c54
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at Test01.UrlAnd_Login(Test01.java:113)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-skipped -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Velocty Automation Class\Java Project\Selenium_Automation\5 pojects selenium\Oyo_Project\Regression01.xml</span>
+            <span class="header-content">C:\Users\ADMIN\git\-OyoTest2022\Oyo_Project\Regression01.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -367,21 +548,21 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test01')
-data.setCell(0, 2, 'Test01')
-data.setCell(0, 3, 11755);
+data.setCell(0, 1, 'testOfficialOYOBlog')
+data.setCell(0, 2, 'Test02')
+data.setCell(0, 3, 948774);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test01')
 data.setCell(1, 2, 'Test01')
-data.setCell(1, 3, 11469);
+data.setCell(1, 3, 603181);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'test01')
 data.setCell(2, 2, 'Test01')
-data.setCell(2, 3, 11467);
+data.setCell(2, 3, 23384);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'test01')
 data.setCell(3, 2, 'Test01')
-data.setCell(3, 3, 10310);
+data.setCell(3, 3, 5034);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testOfficialOYOBlog')
 data.setCell(4, 2, 'Test02')
@@ -391,8 +572,8 @@ data.setCell(5, 1, 'testOfficialOYOBlog')
 data.setCell(5, 2, 'Test02')
 data.setCell(5, 3, 0);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testOfficialOYOBlog')
-data.setCell(6, 2, 'Test02')
+data.setCell(6, 1, 'test01')
+data.setCell(6, 2, 'Test01')
 data.setCell(6, 3, 0);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'testOfficialOYOBlog')
@@ -402,7 +583,7 @@ window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 45 seconds</span>
+              <span class="suite-total-time">Total running time: 26 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -438,105 +619,115 @@ return data;
               <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">browserOpen(chrome)</span>
-                <span class="method-start">1443 ms</span>
+                <span class="method-start">3048 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test01</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">objectsOfPOMMethods</span>
-                <span class="method-start">2342 ms</span>
+                <span class="method-start">3799 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">UrlAnd_Login</span>
-                <span class="method-start">2402 ms</span>
+                <span class="method-start">3830 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test01</span>
-                <span class="method-start">3683 ms</span>
+                <span class="method-start">6937 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">captureScreenshot([TestResult name=test01 status=SUCCESS method=Test01.test01()[pri:0, instance:Test01@3911c2a7] outpu...)</span>
-                <span class="method-start">13995 ms</span>
+                <span class="method-name">captureScreenshot([TestResult name=test01 status=FAILURE method=Test01.test01()[pri:0, instance:Test01@4facf68f] outpu...)</span>
+                <span class="method-start">610122 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">clearObjectsOfPOMMethods</span>
-                <span class="method-start">13997 ms</span>
+                <span class="method-start">611227 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">objectsOfPOMMethods</span>
-                <span class="method-start">13998 ms</span>
+                <span class="method-start">611228 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">UrlAnd_Login</span>
-                <span class="method-start">13998 ms</span>
+                <span class="method-start">611231 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testOfficialOYOBlog</span>
-                <span class="method-start">15428 ms</span>
+                <span class="method-start">615020 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">captureScreenShot</span>
-                <span class="method-start">15431 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">captureScreenShot([TestResult name=testOfficialOYOBlog status=FAILURE method=Test02.testOfficialOYOBlog()[pri:0, insta...)</span>
+                <span class="method-start">1563801 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">clearObjectsOfPOMMethods</span>
-                <span class="method-start">15432 ms</span>
+                <span class="method-start">1575950 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test01</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">browserClose</span>
-                <span class="method-start">15433 ms</span>
+                <span class="method-start">1575953 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">browserclose</span>
-                <span class="method-start">15708 ms</span>
+                <span class="method-start">1576095 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test01</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">browserOpen(firefox)</span>
-                <span class="method-start">15932 ms</span>
+                <span class="method-start">1576261 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">browserOpen(firefox)</span>
-                <span class="method-start">20066 ms</span>
+                <span class="method-start">1580872 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test01</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">objectsOfPOMMethods</span>
-                <span class="method-start">22483 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">UrlAnd_Login</span>
-                <span class="method-start">22484 ms</span>
+                <span class="method-start">1583866 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="configuration-class before">
+                <span class="method-name">objectsOfPOMMethods</span>
+                <span class="method-start">1583866 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test01</span>
-                <span class="method-start">26262 ms</span>
+                <span class="method-start">1587972 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">captureScreenshot([TestResult name=test01 status=FAILURE method=Test01.test01()[pri:0, instance:Test01@5e0826e7] outpu...)</span>
-                <span class="method-start">37732 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">captureScreenshot([TestResult name=test01 status=FAILURE method=Test01.test01()[pri:0, instance:Test01@8dbdac1] output...)</span>
+                <span class="method-start">1593007 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">clearObjectsOfPOMMethods</span>
+                <span class="method-start">1593018 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
@@ -544,217 +735,195 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">UrlAnd_Login</span>
-                <span class="method-start">38084 ms</span>
+                <span class="method-start">1593020 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test01</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">clearObjectsOfPOMMethods</span>
-                <span class="method-start">38084 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">objectsOfPOMMethods</span>
-                <span class="method-start">38084 ms</span>
+                <span class="method-start">1593020 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testOfficialOYOBlog</span>
-                <span class="method-start">40983 ms</span>
+                <span class="method-start">1593117 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureScreenShot</span>
-                <span class="method-start">40985 ms</span>
+                <span class="method-start">1593119 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">clearObjectsOfPOMMethods</span>
-                <span class="method-start">40986 ms</span>
+                <span class="method-start">1593120 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test01</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">browserClose</span>
-                <span class="method-start">40987 ms</span>
+                <span class="method-start">1593121 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">browserclose</span>
-                <span class="method-start">42450 ms</span>
+                <span class="method-start">1593122 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test01</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">browserOpen(opera)</span>
-                <span class="method-start">43186 ms</span>
+                <span class="method-start">1593139 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">browserOpen(opera)</span>
-                <span class="method-start">46065 ms</span>
+                <span class="method-start">1595357 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test01</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">objectsOfPOMMethods</span>
-                <span class="method-start">47257 ms</span>
+                <span class="method-start">1596538 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">UrlAnd_Login</span>
-                <span class="method-start">47258 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">test01</span>
-                <span class="method-start">50285 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">captureScreenshot([TestResult name=test01 status=SUCCESS method=Test01.test01()[pri:0, instance:Test01@6aba2b86] outpu...)</span>
-                <span class="method-start">61753 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">objectsOfPOMMethods</span>
-                <span class="method-start">61753 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test01</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">clearObjectsOfPOMMethods</span>
-                <span class="method-start">61753 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">UrlAnd_Login</span>
-                <span class="method-start">61754 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testOfficialOYOBlog</span>
-                <span class="method-start">63288 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">captureScreenShot</span>
-                <span class="method-start">63290 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">clearObjectsOfPOMMethods</span>
-                <span class="method-start">63292 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test01</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">browserClose</span>
-                <span class="method-start">63293 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">browserclose</span>
-                <span class="method-start">64459 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test01</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">browserOpen(MicrosoftEdge)</span>
-                <span class="method-start">64770 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">browserOpen(MicrosoftEdge)</span>
-                <span class="method-start">67140 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test01</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">objectsOfPOMMethods</span>
-                <span class="method-start">69658 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">UrlAnd_Login</span>
-                <span class="method-start">69658 ms</span>
+                <span class="method-start">1596539 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test01</span>
-                <span class="method-start">71369 ms</span>
+                <span class="method-start">1608713 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot</span>
+                <span class="method-start">1608715 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">clearObjectsOfPOMMethods</span>
+                <span class="method-start">1608718 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">objectsOfPOMMethods</span>
-                <span class="method-start">83125 ms</span>
+                <span class="method-start">1608720 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test01</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">captureScreenshot([TestResult name=test01 status=SUCCESS method=Test01.test01()[pri:0, instance:Test01@661972b0] outpu...)</span>
-                <span class="method-start">83125 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">UrlAnd_Login</span>
-                <span class="method-start">83125 ms</span>
+                <span class="method-start">1608721 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test01</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">clearObjectsOfPOMMethods</span>
-                <span class="method-start">83125 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testOfficialOYOBlog</span>
-                <span class="method-start">85215 ms</span>
+                <span class="method-start">1620881 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureScreenShot</span>
-                <span class="method-start">85217 ms</span>
+                <span class="method-start">1620882 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test01</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">browserClose</span>
-                <span class="method-start">85218 ms</span>
+                <span class="method-start">1620883 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">clearObjectsOfPOMMethods</span>
-                <span class="method-start">85218 ms</span>
+                <span class="method-start">1620883 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">browserclose</span>
-                <span class="method-start">85679 ms</span>
+                <span class="method-start">1620884 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test01</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">browserOpen(MicrosoftEdge)</span>
+                <span class="method-start">1620895 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">browserOpen(MicrosoftEdge)</span>
+                <span class="method-start">1622760 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test01</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">objectsOfPOMMethods</span>
+                <span class="method-start">1625463 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">UrlAnd_Login</span>
+                <span class="method-start">1625464 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test01</span>
+                <span class="method-start">1628073 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">captureScreenshot([TestResult name=test01 status=FAILURE method=Test01.test01()[pri:0, instance:Test01@323b36e0] outpu...)</span>
+                <span class="method-start">1651459 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">clearObjectsOfPOMMethods</span>
+                <span class="method-start">1651466 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">objectsOfPOMMethods</span>
+                <span class="method-start">1651468 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UrlAnd_Login</span>
+                <span class="method-start">1651468 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testOfficialOYOBlog</span>
+                <span class="method-start">1663644 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenShot</span>
+                <span class="method-start">1663645 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test01</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">1663646 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test02</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">clearObjectsOfPOMMethods</span>
+                <span class="method-start">1663646 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">1663647 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

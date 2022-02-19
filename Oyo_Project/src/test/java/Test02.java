@@ -95,10 +95,10 @@ public class Test02 extends Browser
 	@BeforeClass
 		public void objectsOfPOMMethods()
 		{
-//			header = new Header (driver);
-//			logIn = new LogIn(driver);
-//			lowerHeader = new LowerHeader(driver);
-//			officialOyoBlog = new OfficialOyoBlog(driver);
+			header = new Header (driver);
+			logIn = new LogIn(driver);
+			lowerHeader = new LowerHeader(driver);
+			officialOyoBlog = new OfficialOyoBlog(driver);
 		}
     
 	
@@ -109,10 +109,10 @@ public class Test02 extends Browser
 	    			header.clickLogin_Signup();
 	
 	    			logIn.clickForLogInByPassword();
-	    	String mobileNo = Utility.getDataFromExcel("O_Details", 3, 0);
+	    	String mobileNo = Utility.getDataFromExcel("Sheet1", 2, 0);
 	    	
 	    			logIn.sendKeyEnterMobileNo_Field(mobileNo);
-	    	String password = Utility.getDataFromExcel("O_Details", 3, 1);		
+	    	String password = Utility.getDataFromExcel("Sheet1", 2, 1);		
 	    			logIn.enterPassword_Field(password);
 	    			logIn.clickVerfifyNumberButton();
 	    	
