@@ -168,15 +168,15 @@ public class Test02 extends Browser
 			lowerHeader = null;
 			officialOyoBlog = null;
 		}
-    @AfterTest
-	    public void browserclose()
-	    {
-	    	driver.quit();
-	    	driver = null;
-	    	System.gc();
-	    }
-	    
-	
+//    @AfterTest
+//	    public void browserclose()
+//	    {
+//	    	driver.quit();
+//	    	driver = null;
+//	    	System.gc();
+//	    }
+//	    
+//	
 	
 	
 	
