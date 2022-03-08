@@ -31,6 +31,7 @@ import roomBooking_POM_Class.LogIn;
 import roomBooking_POM_Class.OyoRoomDetails;
 import roomBooking_POM_Class.RoomSelect;
 import roomBooking_POM_Class.StayDetails;
+import roomBooking_POM_Class.excelP;
 import utils.Utility;
 
 public class Test01 extends Browser
@@ -79,11 +80,11 @@ public class Test01 extends Browser
 	    		browserName= "MicrosoftEdge T01 ";
 	    	}
 	    	
-	//    	if(browser.equalsIgnoreCase("InternetExplorer"))
-	//    	{
-	//		    	driver = luanchInternetExplorerBrowser();
-    //	    		browserName= "InternetExplorer T01 ";
-	//    	}
+	    	if(browser.equalsIgnoreCase("InternetExplorer"))
+	    	{
+			    	driver = launchIEBrowser();
+    	    		browserName= "InternetExplorer T01 ";
+	    	}
 	    	
 	    	driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(300, TimeUnit.SECONDS);
@@ -189,7 +190,7 @@ public class Test01 extends Browser
 				  	softAssert.assertAll();	
 		}
 		
-	
+	 
 	@AfterMethod
 		public void captureScreenshot(ITestResult result) throws IOException
 		{  

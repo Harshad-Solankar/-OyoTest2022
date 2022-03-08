@@ -5,7 +5,7 @@
     <listener class-name="extentReport.ExtentTestNGIReporterListener"/>
   </listeners>
   <test thread-count="5" name="OyoTestOnChrome(failed)">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="hrome"/>
     <classes>
       <class name="Test02">
         <methods>
@@ -32,7 +32,7 @@
     </classes>
   </test> <!-- OyoTestOnChrome(failed) -->
   <test thread-count="5" name="OyoTestOnFireFox(failed)">
-    <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="irefox"/>
     <classes>
       <class name="Test02">
         <methods>
@@ -59,7 +59,7 @@
     </classes>
   </test> <!-- OyoTestOnFireFox(failed) -->
   <test thread-count="5" name="OyoTestOnOpera(failed)">
-    <parameter name="browser" value="opera"/>
+    <parameter name="browser" value="pera"/>
     <classes>
       <class name="Test02">
         <methods>
@@ -86,7 +86,7 @@
     </classes>
   </test> <!-- OyoTestOnOpera(failed) -->
   <test thread-count="5" name="OyoTestOnedge(failed)">
-    <parameter name="browser" value="MicrosoftEdge"/>
+    <parameter name="browser" value="icrosoftEdge"/>
     <classes>
       <class name="Test02">
         <methods>
@@ -112,4 +112,31 @@
       </class> <!-- Test01 -->
     </classes>
   </test> <!-- OyoTestOnedge(failed) -->
+  <test thread-count="5" name="OyoTestOnIE(failed)">
+    <parameter name="browser" value="InternetExplorer"/>
+    <classes>
+      <class name="Test02">
+        <methods>
+          <include name="testOfficialOYOBlog"/>
+          <include name="browserOpen"/>
+          <include name="browserclose"/>
+          <include name="UrlAnd_Login"/>
+          <include name="captureScreenShot"/>
+          <include name="clearObjectsOfPOMMethods"/>
+          <include name="objectsOfPOMMethods"/>
+        </methods>
+      </class> <!-- Test02 -->
+      <class name="Test01">
+        <methods>
+          <include name="clearObjectsOfPOMMethods"/>
+          <include name="UrlAnd_Login"/>
+          <include name="test01"/>
+          <include name="browserOpen"/>
+          <include name="browserClose"/>
+          <include name="captureScreenshot"/>
+          <include name="objectsOfPOMMethods"/>
+        </methods>
+      </class> <!-- Test01 -->
+    </classes>
+  </test> <!-- OyoTestOnIE(failed) -->
 </suite> <!-- Failed suite [Suite] -->

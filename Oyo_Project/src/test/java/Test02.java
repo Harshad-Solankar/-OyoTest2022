@@ -79,11 +79,11 @@ public class Test02 extends Browser
 		    		 	browserName= "MicrosoftEdge T02 ";
 		    	}
 	    	
-//	    	if(browser.equalsIgnoreCase("InternetExplorer"))
-//		    	{
-//				    	driver = luanchInternetExplorerBrowser();
-//	    				browserName= "InternetExplorer T02 ";
-//		    	}
+	    	if(browser.equalsIgnoreCase("InternetExplorer"))
+		    	{
+				    	driver = launchIEBrowser();
+	    				browserName= "InternetExplorer T02 ";
+		    	}
 		    	
 			    	driver.manage().window().maximize();
 					driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);	
@@ -114,8 +114,7 @@ public class Test02 extends Browser
 	    			logIn.sendKeyEnterMobileNo_Field(mobileNo);
 	    	String password = Utility.getDataFromExcel("Sheet1", 2, 1);		
 	    			logIn.enterPassword_Field(password);
-	    			logIn.clickVerfifyNumberButton();
-	    	
+	    			logIn.clickVerfifyNumberButton();	
 	    }
     
     @Test
@@ -161,9 +160,6 @@ public class Test02 extends Browser
     			Utility.captureScreenshot(driver, testId, browserName);
     		}
     	}
-    
-    
-    
     @AfterClass
 	public void clearObjectsOfPOMMethods()
 		{
@@ -172,9 +168,6 @@ public class Test02 extends Browser
 			lowerHeader = null;
 			officialOyoBlog = null;
 		}
-    
-    
-    
     @AfterTest
 	    public void browserclose()
 	    {

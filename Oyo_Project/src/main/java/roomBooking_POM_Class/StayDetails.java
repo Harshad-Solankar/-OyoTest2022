@@ -18,7 +18,7 @@ public class StayDetails
 //	private WebElement location ;
 	
 	@FindBy (xpath= "//input[@autocomplete='off']")
-	private WebElement location ;
+	private WebElement location;
 	
 	@FindBy (xpath = "(//div[contains(@class,'-phone geoSuggestionsList__')])[1]")
 	private WebElement sublocations;

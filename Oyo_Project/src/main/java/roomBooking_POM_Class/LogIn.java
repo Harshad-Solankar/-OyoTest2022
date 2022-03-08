@@ -6,7 +6,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LogIn 
-{
+{   
+	private WebDriver driver;
+	
 	@FindBy (xpath = "//button[@data-logintype='password']")
 	private WebElement logInByPassword;
 	
@@ -23,6 +25,7 @@ public class LogIn
 	public LogIn (WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
+		this.driver=driver;
 	}
 	
 	

@@ -6,9 +6,8 @@
 		<listener class-name="extentReport.ExtentTestNGIReporterListener" />
 </listeners>
 
-
     <test thread-count="5" name="OyoTestOnChrome">
-  <parameter name = "browser" value= "chrome" />
+  <parameter name = "browser" value= "Chrome" />
     <classes>
       <class name="Test01"/>
       <class name= "Test02"/>
@@ -16,7 +15,7 @@
    </test> 
  
   <test thread-count="5" name="OyoTestOnFireFox">
-  <parameter name = "browser" value= "firefox" />
+  <parameter name = "browser" value= "Firefox" />
     <classes>
     
       <class name="Test01"/>
@@ -38,10 +37,15 @@
     <classes>
       <class name="Test01"/>
       <class name= "Test02"/>
-      
     </classes>
   </test> <!-- Test -->  
   
-
-  
+     <test thread-count="5" name="OyoTestOnIE">
+  <parameter name = "browser" value= "InternetExplorer" />
+    <classes>
+      <class name="Test01"/>
+      <class name= "Test02"/>
+    </classes>
+  </test> <!-- Test -->  
+ 
 </suite> <!-- Suite -->
